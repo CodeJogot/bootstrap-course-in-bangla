@@ -50,11 +50,11 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 
 # Chapter-00: How The Course is Designed
 
-### কোর্সটি যেভাবে সাজানো হয়েছেঃ
+- [কোর্সটি কাদের জন্য?](#কোর্সটি-কাদের-জন্য)
+- [Prerequisite](#prerequisite)
+- [কোর্সটি যেভাবে সাজানো হয়েছে](#কোর্সটি-যেভাবে-সাজানো-হয়েছেঃ)
 
-- এই পুরো Article কে একটা বই মনে করতে পারেন। কোর্সটি 60 টি Chapter এ ভাগ করা হয়েছে। প্রতিটি Chapter এ HTML/CSS এর বিভিন্ন Topics নিয়ে আলোচনা করা হয়েছে।
-- প্রতিটা Chapter এর Module সাজানো হয়েছে ক্রমানুসারে । উদাহরণস্বরূপ, Chapter-05 এর টপিকসগুলো শিখতে হলে অবশ্যই আপনাকে Chapter-04 শেষ করে আসতে হবে। একইভাবে Chapter-04 শিখতে হলে আপনাকে Chapter-03 শেষ করে আসতে হবে ।
-- প্রতিটা Chapter এর Topics এর Written Explanation/Article এর সাথে সাথে Video Explanation-ও দেয়া আছে। যাতে শিক্ষার্থীরা খুব সহজেই টপিকসগুলো আত্মস্থ করতে পারে।
+
 
 ### কোর্সটি কাদের জন্য?
 
@@ -63,9 +63,26 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 
 ### Prerequisite
 
-- HTML সম্পর্কে অল্প ধারনা থাকলে ভালো, না থাকলেও সমস্যা নেই।
+- HTML ও CSS
 
-# Chapter-01: Introduction
+### কোর্সটি যেভাবে সাজানো হয়েছেঃ
+
+- এই পুরো Article কে একটা বই মনে করতে পারো। কোর্সটি 30 টি Chapter এ ভাগ করা হয়েছে। প্রতিটি Chapter এ Bootstrap এর বিভিন্ন Topics নিয়ে আলোচনা করা হয়েছে।
+- প্রতিটা Chapter এর Module সাজানো হয়েছে ক্রমানুসারে । উদাহরণস্বরূপ, Chapter-05 এর টপিকসগুলো শিখতে হলে অবশ্যই তোমাকে Chapter-04 শেষ করে আসতে হবে। একইভাবে Chapter-04 শিখতে হলে তোমাকে Chapter-03 শেষ করে আসতে হবে ।
+- প্রতিটা Chapter এর Topics এর Written Explanation/Article এর সাথে সাথে Video Explanation-ও দেয়া আছে। যাতে শিক্ষার্থীরা খুব সহজেই টপিকসগুলো আত্মস্থ করতে পারে।
+
+**Course Design**
+
+|      Part     |                                                                                                                    Topics                                                                                                                   |
+|:-------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| 1. Layout     | Breakpoints, Containers, Grid, Columns, Gutters, Utilities, Z-index, CSS Grid                                                                                                                                                               |
+| 2. Content    | Reboot, Typography, Images, Tables, Figures                                                                                                                                                                                                 |
+| 3. Forms      | Form Controls, Select, Checks & Radios, Ranges, Input Groups, Floating Labels, Layout, Validation                                                                                                                                           |
+| 4. Components | Accordion, Alerts, Badge, Breadcrumb, Buttons, Card, Carousel, Close Buttons, Collapse, Dropdowns, List Group, Modals, Navbar, Navs & Tabs, Off Canvas, Pagination, Placeholders, Popovers, Progress, Scrollspy, Spinners, Toasts, Tooltips |
+| 5. Helpers    | Clearfix, Color & Background, Colored links, Focus ring, Icon link, Position, Ratio, Stacks, Stretched link, Text truncation, Vertical Rule, Visual hidden                                                                                  |
+| 6. Utilities  | API, Background, Borders, Colors, Display, Flex, Float, Interaction, Link, Object fit, Opacity, Overflow, Position, Shadows, Sizing, Spacing, Text, Vertical Align, Visibility, Z-index                                                     |
+
+# Chapter-01: Install, Breakpoints, Container
 
 - [What is HTML?](#what-is-html)
 - [HTML Basics](#html-basics)
@@ -139,17 +156,12 @@ Here we go:
 
 ### You Will Learn
 
-- কিভাবে একটি Website এর Layout তৈরি করতে হয় CSS Flexbox দ্বারা ।
-- যদিও এই কাজটা CSS Grid এর সাহায্যে খুব সহজেই তৈরি করা যায়, কারন CSS Flexbox হলো One dimensional Concept, যেখানে CSS Grid এর সাহায্যে খুব সহজেই 2-dimensional Layout তৈরি করা যায়।
-
 ### Project Description
-
-এই প্রজেক্টে আমরা একটা Simple Website Layout বানাবো CSS এর Flexbox ব্যবহার করে। যদিও এই কাজটা CSS Grid এর সাহায্যে খুব সহজেই তৈরি করা যায়, কারন CSS Flexbox হলো One dimensional Concept, যেখানে CSS Grid এর সাহায্যে খুব সহজেই 2-dimensional Layout তৈরি করা যায়।
 
 ### Project Screenshot
 
 _Click the following image to view Project_
-[![Project 2](./project-02-simple-website-layout-with-basic-css/images/layout1.png)]()
+[![Project 2]()]()
 
 ### Live Project Link
 
@@ -161,6 +173,6 @@ Coming Soon...
 
 ### Project Source Codes
 
-[Source Codes](./project-03-simple-website-layout-with-flexbox/)
+[Source Codes]()
 
 [<h3 align="center">Back to Project Section</h3>](#20-html--css-projects)
