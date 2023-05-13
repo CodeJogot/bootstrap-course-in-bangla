@@ -84,10 +84,19 @@ Bootstrap এর পুরো Course টিকে ৬ টি ভাগে ভা
 
 # Chapter-01: Install, Breakpoints, Container, Grid
 
+- [What is Bootstrap?](#what-is-bootstrap)
 - [Installation Method](#installation-method)
   - [Way-01](#way-01)
   - [Way-02](#way-02)
 
+
+### What is Bootstrap? 
+Bootstrap হলো একটি front-end framework যার মাধ্যমে খুব সহজে Mobile-first এবং Responsive web design করা যায়। 
+
+### Why Use Bootstrap?
+- Mobile-first approach: অর্থাৎ Design করার ক্ষেত্রে এই Framework মোবাইল এর কথা আগে চিন্তা করে। 
+- Responsive Design: Responsive Web Design করার জন্য Bootstrap খুবই কার্যকরী, বলা যেতে পারে Bootstrap এর প্রধান Feature-ই হলো Responsive Design করা। 
+- Time Saving: মাথায় কোন Prototype বা Design idea আছে? Bootstrap দিয়ে খুব সহজেই Prototype থেকে Design করে ফেলা যায়, যা Developers দের অনেক সময় বাঁচিয়ে দেয়। 
 
 ### Installation Method
 
