@@ -82,6 +82,16 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 | 5. Helpers    | Clearfix, Color & Background, Colored links, Focus ring, Icon link, Position, Ratio, Stacks, Stretched link, Text truncation, Vertical Rule, Visual hidden                                                                                  |
 | 6. Utilities  | API, Background, Borders, Colors, Display, Flex, Float, Interaction, Link, Object fit, Opacity, Overflow, Position, Shadows, Sizing, Spacing, Text, Vertical Align, Visibility, Z-index                                                     |
 
+| **Part**          | **Topics**                                                                                                                                                                                                                                  |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1. Layout**     | Breakpoints, Containers, Grid, Columns, Gutters, Utilities, Z-index, CSS Grid                                                                                                                                                               |
+| **2. Content**    | Reboot, Typography, Images, Tables, Figures                                                                                                                                                                                                 |
+| **3. Forms**      | Form Controls, Select, Checks & Radios, Ranges, Input Groups, Floating Labels, Layout, Validation                                                                                                                                           |
+| **4. Components** | Accordion, Alerts, Badge, Breadcrumb, Buttons, Card, Carousel, Close Buttons, Collapse, Dropdowns, List Group, Modals, Navbar, Navs & Tabs, Off Canvas, Pagination, Placeholders, Popovers, Progress, Scrollspy, Spinners, Toasts, Tooltips |
+| **5. Helpers**    | Clearfix, Color & Background, Colored links, Focus ring, Icon link, Position, Ratio, Stacks, Stretched link, Text truncation, Vertical Rule, Visual hidden                                                                                  |
+| **6. Utilities**  | API, Background, Borders, Colors, Display, Flex, Float, Interaction, Link, Object fit, Opacity, Overflow, Position, Shadows, Sizing, Spacing, Text, Vertical Align, Visibility, Z-index                                                     |
+
+
 # Chapter-01: Install, Breakpoints, Container
 
 - [What is HTML?](#what-is-html)
