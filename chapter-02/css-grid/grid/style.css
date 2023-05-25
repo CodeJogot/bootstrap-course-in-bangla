@@ -1,0 +1,7 @@
+.grid div {
+    height: 100px;
+    border: 1px solid;
+    background-color: #2ecc71;
+    font-size: 50px;
+    text-align: center;
+}
