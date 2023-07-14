@@ -247,6 +247,11 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 - [Breadcrumbs](#bootstrap-breadcrumbs)
 - [Button](#bootstrap-button)
 - [Button Group](#bootstrap-button-group)
+- [Assignments for Chapter 5](#assignments-for-chapter-5)
+  - [Assignment 1](#assignments-1-for-chapter-5)
+  - [Assignment 2](#assignments-2-for-chapter-5)
+  - [Assignment 3](#assignments-3-for-chapter-5)
+  - [Assignment 4](#assignments-4-for-chapter-5)
 
 ## Bootstrap Accordion
 
@@ -293,7 +298,7 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 | 6       | btn-sm              |                | Small Button তৈরি করার জন্য।                                                                                                                        |
 | 7       |                     | role           | আমরা Button ছাড়াও অন্য elements যেমন `<a>` এবং `<input>` কে অনেক সময় Button হিসেবে ব্যবহার করতে পারি। সেজন্য Role Attribute এ Button Value দিতে হয়। |
 | 8       |                     | disabled       | Button কে Disabled করার জন্য।                                                                                                                       |
-|         |                     | data-bs-toggle | Button এ Toggle Mode দেয়ার জন্য।                                                                                                                    |
+| 9       |                     | data-bs-toggle | Button এ Toggle Mode দেয়ার জন্য।                                                                                                                    |
 
 ## Bootstrap Button Group
 
@@ -306,6 +311,24 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 | 3       | btn-group-sm       |               | Horizontally Small Button Group তৈরি করার জন্য। |
 | 4       | btn-group-vertical |               | Vertically Button Group তৈরি করার জন্য।         |
 | 5       | btn-toolbar        |               | Button Toolbar তৈরি করার জন্য।                  |
+
+## Assignments for Chapter 5
+
+### Assignments 1 for Chapter 5
+
+![assingment 1](./chapter-05/images/1.png)
+
+### Assignments 2 for Chapter 5
+
+![assingment 2](./chapter-05/images/2.png)
+
+### Assignments 3 for Chapter 5
+
+![assingment 3](./chapter-05/images/3.png)
+
+### Assignments 4 for Chapter 5
+
+![assingment 4](./chapter-05/images/4.png)
 
 # Project-03: Simple Website Layout with Flexbox
 
