@@ -4,39 +4,39 @@
 
 After completing the 30-chapters module, jump in the [Projects Section](#).
 
-|                                     **Chapter No.**                                      |                                                                          **Topics**                                                                          | **Video Explanation** |
-| :--------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
-|                       [00](#chapter-00-how-the-course-is-designed)                       |                                             [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                             |       Watch Now       |
-|                   [01](#chapter-01-install-breakpoints-container-grid)                   |                                   [Install, Breakpoints, Container, Grid](#chapter-01-install-breakpoints-container-grid)                                    |       Watch Now       |
-|                        [02](#chapter-02-columns-gutters-css-grid)                        |                                                 [Columns and Gutters](#chapter-02-columns-gutters-css-grid)                                                  |       Watch Now       |
-|                [03](#chapter-03-reboot-typography-images-tables-figures)                 |                              [Reboot, Typography, Images, Tables, Figures](#chapter-03-reboot-typography-images-tables-figures)                              |       Watch Now       |
-|                             [04](#chapter-04-bootstrap-form)                             |                                                         [Bootstrap Form](#chapter-04-bootstrap-form)                                                         |                       |
-| [05](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group) | [Bootstrap Accordion, Alerts, Badges, Breadcrumb, Buttons, Button Group](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group) |                       |
-|                                            06                                            |                                                                                                                                                              |                       |
-|                                            07                                            |                                                                                                                                                              |                       |
-|                                            08                                            |                                                                                                                                                              |                       |
-|                                            09                                            |                                                                                                                                                              |                       |
-|                                            10                                            |                                                                                                                                                              |                       |
-|                                            11                                            |                                                                                                                                                              |                       |
-|                                            12                                            |                                                                                                                                                              |                       |
-|                                            13                                            |                                                                                                                                                              |                       |
-|                                            14                                            |                                                                                                                                                              |                       |
-|                                            15                                            |                                                                                                                                                              |                       |
-|                                            16                                            |                                                                                                                                                              |                       |
-|                                            17                                            |                                                                                                                                                              |                       |
-|                                            18                                            |                                                                                                                                                              |                       |
-|                                            19                                            |                                                                                                                                                              |                       |
-|                                            20                                            |                                                                                                                                                              |                       |
-|                                            21                                            |                                                                                                                                                              |                       |
-|                                            22                                            |                                                                                                                                                              |                       |
-|                                            23                                            |                                                                                                                                                              |                       |
-|                                            24                                            |                                                                                                                                                              |                       |
-|                                            25                                            |                                                                                                                                                              |                       |
-|                                            26                                            |                                                                                                                                                              |                       |
-|                                            27                                            |                                                                                                                                                              |                       |
-|                                            28                                            |                                                                                                                                                              |                       |
-|                                            29                                            |                                                                                                                                                              |                       |
-|                                            30                                            |                                                                                                                                                              |                       |
+|                                     **Chapter No.**                                      |                                                                           **Topics**                                                                           | **Video Explanation** |
+| :--------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------: |
+|                       [00](#chapter-00-how-the-course-is-designed)                       |                                              [How The Course is Designed](#chapter-00-how-the-course-is-designed)                                              |       Watch Now       |
+|                   [01](#chapter-01-install-breakpoints-container-grid)                   |                                    [Install, Breakpoints, Container, Grid](#chapter-01-install-breakpoints-container-grid)                                     |       Watch Now       |
+|                        [02](#chapter-02-columns-gutters-css-grid)                        |                                                  [Columns and Gutters](#chapter-02-columns-gutters-css-grid)                                                   |       Watch Now       |
+|                [03](#chapter-03-reboot-typography-images-tables-figures)                 |                               [Reboot, Typography, Images, Tables, Figures](#chapter-03-reboot-typography-images-tables-figures)                               |       Watch Now       |
+|                             [04](#chapter-04-bootstrap-form)                             |                                                          [Bootstrap Form](#chapter-04-bootstrap-form)                                                          |     [Watch Now]()     |
+| [05](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group) |  [Bootstrap Accordion, Alerts, Badges, Breadcrumb, Buttons, Button Group](#chapter-05-bootstrap-accordion-alerts-badges-breadcrumbs-buttons-and-button-group)  |     [Watch Now]()     |
+| [06](#chapter-06-bootstrap-card-carousel-close-button-collapse-dropdown-and-list-group)  | [Bootstrap Card, Carousel, Close Button, Collapse, Dropdown and List Group](#chapter-06-bootstrap-card-carousel-close-button-collapse-dropdown-and-list-group) |     [Watch Now]()     |
+|                                            07                                            |                                                                                                                                                                |                       |
+|                                            08                                            |                                                                                                                                                                |                       |
+|                                            09                                            |                                                                                                                                                                |                       |
+|                                            10                                            |                                                                                                                                                                |                       |
+|                                            11                                            |                                                                                                                                                                |                       |
+|                                            12                                            |                                                                                                                                                                |                       |
+|                                            13                                            |                                                                                                                                                                |                       |
+|                                            14                                            |                                                                                                                                                                |                       |
+|                                            15                                            |                                                                                                                                                                |                       |
+|                                            16                                            |                                                                                                                                                                |                       |
+|                                            17                                            |                                                                                                                                                                |                       |
+|                                            18                                            |                                                                                                                                                                |                       |
+|                                            19                                            |                                                                                                                                                                |                       |
+|                                            20                                            |                                                                                                                                                                |                       |
+|                                            21                                            |                                                                                                                                                                |                       |
+|                                            22                                            |                                                                                                                                                                |                       |
+|                                            23                                            |                                                                                                                                                                |                       |
+|                                            24                                            |                                                                                                                                                                |                       |
+|                                            25                                            |                                                                                                                                                                |                       |
+|                                            26                                            |                                                                                                                                                                |                       |
+|                                            27                                            |                                                                                                                                                                |                       |
+|                                            28                                            |                                                                                                                                                                |                       |
+|                                            29                                            |                                                                                                                                                                |                       |
+|                                            30                                            |                                                                                                                                                                |                       |
 
 # 5 Bootstrap Projects
 
@@ -329,6 +329,39 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 ### Assignments 4 for Chapter 5
 
 ![assingment 4](./chapter-05/images/4.png)
+
+<div align="right">
+    <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
+# Chapter 06: Bootstrap Card, Carousel, Close Button, Collapse, Dropdown and List Group
+
+- [Bootstrap Card](#bootstrap-card)
+- [Bootstrap Carousel](#bootstrap-carousel)
+
+## Bootstrap Card
+
+- Bootstrap দিয়ে Card তৈরি করতে যে যে Classes এবং Attributes লাগে তা নিচে দেয়া হলোঃ
+
+| **No.** | **Class**           | **Attribute** | **Reason**                                          |
+| ------- | ------------------- | ------------- | --------------------------------------------------- |
+| 1       | card                |               | Bootstrap Card তৈরি করার জন্য।                      |
+| 2       | card-body           |               | Card এর Body তৈরি করার জন্য                         |
+| 3       | card-title          |               | Body এর মধ্যে Card এর Title দেয়ার জন্য              |
+| 4       | card-subtitle       |               | Body এর মধ্যে Card Subtitle তৈরি করার জন্য          |
+| 5       | card-img-top        |               | Card এর মধ্যে Image Add করার জন্য।                  |
+| 6       | card-text           |               | Card Body এর মধ্যে Text Add করার জন্য।              |
+| 7       | card-header         |               | Card এর Header দেয়ার জন্য                           |
+| 8       | card-footer         |               | Card এর Footer Add করার জন্য।                       |
+| 9       | text-body-secondary |               | Card Body বা Footer এ Secondary Text Add করার জন্য। |
+
+## Bootstrap Carousel
+
+Bootstrap দিয়ে Carousel তৈরি করতে যে যে Classes এবং Attributes লাগে তা নিচে দেয়া হলোঃ
+
+<div align="right">
+    <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
+</div>
 
 # Project-03: Simple Website Layout with Flexbox
 
