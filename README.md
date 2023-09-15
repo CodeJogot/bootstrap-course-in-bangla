@@ -354,6 +354,7 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 | 7       | card-header         |               | Card এর Header দেয়ার জন্য                           |
 | 8       | card-footer         |               | Card এর Footer Add করার জন্য।                       |
 | 9       | text-body-secondary |               | Card Body বা Footer এ Secondary Text Add করার জন্য। |
+| 10      | card-group          |               | অনেকগুলা Card তৈরি করার জন্য।                       |
 
 ## Bootstrap Carousel
 
