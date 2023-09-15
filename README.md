@@ -339,6 +339,8 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 - [Bootstrap Card](#bootstrap-card)
 - [Bootstrap Carousel](#bootstrap-carousel)
 - [Bootstrap Close Button](#bootstrap-close-button)
+- [Bootstrap Collapse](#bootstrap-collapse)
+- [Bootstrap Dropdown](#Bootstrap-Dropdown)
 
 ## Bootstrap Card
 
@@ -381,7 +383,19 @@ Bootstrap দিয়ে Carousel তৈরি করতে যে যে Classes 
 
 ## Bootstrap Close Button
 
-Bootstrap দিয়ে Close Button তৈরি করতে যে যে Classes এবং Attributes লাগে তা নিচে দেয়া হলোঃ
+Bootstrap দিয়ে Close Button তৈরি করতে `btn-close` Class টি ব্যবহার করতে হয়।
+
+## Bootstrap Collapse
+
+- Bootstrap দিয়ে Collapse তৈরি করতে যে যে Classes এবং Attributes লাগে তা নিচে দেয়া হলোঃ
+
+| **No.** | **Class** | **Attribute**             | **Reason**                                                                                                                                                                            |
+| ------- | --------- | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | collapse  |                           | Bootstrap Collapse Element তৈরি করার জন্য। Collapse Element যেকোনো কিছুই হতে পারে যেমনঃ Card, Form ইত্যাদি।                                                                           |
+| 2       |           | data-bs-toggle="collapse" | যে Button এ ক্লিক করলে Content Collapse করবে বা Reveal হবে সেই Button এ এই Attribute দিতে হবে।                                                                                        |
+| 3       |           | data-bs-target="#abc"     | যে Button এ ক্লিক করলে Content Collapse করবে বা Reveal হবে সেই Button এ এই Attribute দিতে হবে যাতে ঐ Content কে সে Target করতে পারে। এখানে এই Attribute না দিয়ে href="#abc" দিলেও হবে |
+
+## Bootstrap Dropdown
 
 <div align="right">
     <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
