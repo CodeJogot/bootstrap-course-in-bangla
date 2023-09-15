@@ -338,6 +338,7 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 
 - [Bootstrap Card](#bootstrap-card)
 - [Bootstrap Carousel](#bootstrap-carousel)
+- [Bootstrap Close Button](#bootstrap-close-button)
 
 ## Bootstrap Card
 
@@ -359,6 +360,28 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 ## Bootstrap Carousel
 
 Bootstrap দিয়ে Carousel তৈরি করতে যে যে Classes এবং Attributes লাগে তা নিচে দেয়া হলোঃ
+
+| **No.** | **Class**                  | **Attribute**           | **Reason**                                                                                                                                           |
+| ------- | -------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | carousel                   |                         | Carousel বা Slider তৈরি করার জন্য।                                                                                                                   |
+| 2       | carousel-inner             |                         | Carousel Inner এর মধ্যে Carousel সব Items রাখতে হয়।                                                                                                  |
+| 3       | carousel-item              |                         | Carousel Item বা Image Add করার জন্য।                                                                                                                |
+| 4       | slide                      |                         | Carousel এ Slide Behavior দেয়ার জন্য                                                                                                                 |
+| 5       |                            | data-bs-ride="carousel" | Carousel display হওয়ার জন্য                                                                                                                          |
+| 6       | active                     |                         | প্রথম Item কে Active না দিলে Carosel কাজ করবে না                                                                                                     |
+| 7       | carousel-control-prev      |                         | Button এ Indicator Functionality add করার জন্য, অর্থাৎ এই Indicator এ প্রেস করলে আগের Image বা Slider টা দেখাবে                                      |
+| 8       |                            | data-bs-target="#abc"   | এই Indicator কাকে Target করবে সেইটা বলে দেয়ার জন্য button এ এই Attribute ব্যবহার করা হয়                                                              |
+| 9       | carousel-control-prev-icon |                         | Button এর মধ্যে একটা Span Element এ এই ক্লাস দিলে Indicator এর Icon টা Show হবে                                                                      |
+| 10      |                            | data-bs-slide="prev"    | Indicator টা কাজ করার জন্য                                                                                                                           |
+| 11      | carousel-indicators        |                         | নিচের দিকে Indicator তৈরি করার জন্য                                                                                                                  |
+| 12      | active                     | data-bs-slide-to="0"    | carousel-indicators এর মধ্যে Button এ এই Attribute দিলে Slider কাজ করবে। এর সাথে class="active" ও দিতে হবে। এছাড়া data-bs-target Attribute দিতে হবে। |
+| 13      |                            | data-bs-touch="true"    | carousel class element এ এই Attribute দিলে Slider টা Touch এও কাজ করবে, যেমন Mobile এ।                                                               |
+| 14      | carousel-fade              |                         | carousel class element এ এই Class দিলে Slider এর Behivior Fade-in এর মতো হবে                                                                         |
+| 15      | carousel-caption           |                         | carousel-item element এর মধ্যে carousel-caption element তৈরি করে আমরা চাইলে Caption add করতে পারি                                                    |
+
+## Bootstrap Close Button
+
+Bootstrap দিয়ে Close Button তৈরি করতে যে যে Classes এবং Attributes লাগে তা নিচে দেয়া হলোঃ
 
 <div align="right">
     <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
