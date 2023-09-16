@@ -398,6 +398,18 @@ Bootstrap দিয়ে Close Button তৈরি করতে `btn-close` Class 
 
 ## Bootstrap List Group
 
+- Bootstrap দিয়ে List Group তৈরি করতে যে যে Classes এবং Attributes লাগে তা নিচে দেয়া হলোঃ
+
+| **No.** | **Class**           | **Attribute** | **Reason**                                                                                                                              |
+| ------- | ------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | list-group          |               | List Group তৈরি করার জন্য                                                                                                               |
+| 2       | list-group-item     |               | List এর Item তৈরি করার জন্য list-group class এর ভিতরে এই ক্লাস দেয়া হয়                                                                  |
+| 3       | active              |               | যে Item কে Active করতে চাই, সেই Item এ এই ক্লাস দেয়া হয়                                                                                 |
+| 4       | list-group-flush    |               | ডান ও বামের Border ছাড়া List তৈরি করতে চাইলে যে element এ list-group class ব্যবহার করা হয়েছে সেই element এ এই ক্লাসটাও ব্যবহার করতে হবে |
+| 5       | list-group-numbered |               | Item গুলো Number সহ Display করতে চাইলে যে element এ list-group class ব্যবহার করা হয়েছে সেই element এ এই ক্লাসটাও ব্যবহার করতে হবে       |
+
+- Actionable List Group with Hover তৈরি করার জন্য `<li>` element এর পরিবর্তে `<a>` অথবা `<button>` element ব্যবহার করা হয়। Hover Effect এর জন্য প্রতিটা item এ **_list-group-item-action_** এই ক্লাস Add করতে হয়।
+
 ## Bootstrap Dropdowns, Navbar, Navs and Tabs
 
 <div align="right">
