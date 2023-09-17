@@ -343,6 +343,7 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 - [Bootstrap List Group](#bootstrap-list-group)
 - [Bootstrap Navbar and Dropdowns](#bootstrap-navbar-and-dropdowns)
 - [Bootstrap Navs and Tabs](#bootstrap-navs-and-tabs)
+- [Assignments](#assignment-for-chapter-6)
 
 ## Bootstrap Card
 
@@ -447,6 +448,63 @@ Bootstrap দিয়ে Close Button তৈরি করতে `btn-close` Class 
 | 6       | nav-pills           |               | Nav Items গুলো Pill আঁকারে Display করার জন্য। এই ক্লাসটাও nav class এর সাথেই দিতে হয়              |
 | 7       | .nav-underline         |               | Nav Items গুলোর নিচে Underline দেয়ার জন্য। Nav class যে element এ দেয়া হয়, এটাও same element এই দেয়া হয়                           |
 | 8       | nav-fill         |               | Nav Items গুলো একে অপরের মাঝে এমনভাবে Space Create করে যাতে তাঁদের জন্য বরাদ্দকৃত জায়গা Fill হয়ে যায়                        |
+
+### Assignment for Chapter 6
+
+**Assignment 1: Bootstrap Card Layout**
+Create a webpage that displays a grid of Bootstrap cards. Each card should include:
+- An image at the top.
+- Card title and a brief description.
+- A button that links to a related page.
+- Apply different styles (e.g., colors, borders) to at least two of the cards.
+- Ensure the cards are responsive and stack vertically on smaller screens.
+
+**Assignment 2: Bootstrap Carousel**
+Build a simple image carousel using Bootstrap. Requirements:
+- Include at least 3 images in the carousel.
+- Add navigation arrows to navigate between images.
+- Implement automatic sliding with a delay of 3 seconds between slides.
+- Display indicators (dots) at the bottom to show the current slide.
+- Make sure the carousel is responsive and adjusts to various screen sizes.
+
+**Assignment 3: Bootstrap Collapse**
+Create an FAQ (Frequently Asked Questions) page using Bootstrap's collapse component. Requirements:
+- List a set of common questions and answers.
+- Implement a collapsible accordion-style layout for the questions.
+- Ensure that only one answer is visible at a time (when one question is expanded, others should collapse).
+- Customize the design of the accordion to make it visually appealing.
+
+**Assignment 4: Bootstrap Navbar**
+Design a responsive navigation bar for a restaurant website. Requirements:
+- Include a logo or restaurant name on the left side.
+- Create a dropdown menu for different sections (e.g., Menu, About Us, Contact).
+- Add a search bar on the right side.
+- Ensure that the navigation bar collapses into a mobile-friendly menu when the screen size is reduced.
+
+**Assignment 5: Bootstrap Tabs**
+Build a product details page with tabs for description, specifications, and reviews. Requirements:
+- Use Bootstrap tabs to switch between the different sections.
+- Populate each tab with relevant content (dummy text is acceptable).
+- Add an active tab indicator.
+- Customize the appearance of the tabs to match the overall design.
+
+**Assignment 6: Bootstrap List Group and Close Button**
+Develop a to-do list application using Bootstrap's list group and close button components. Requirements:
+- Create a list of tasks with close buttons for each task.
+- When the close button is clicked, the task should be removed from the list.
+- Allow users to add new tasks using an input field and a "Add Task" button.
+
+**Assignment 7: Bootstrap Dropdowns**
+Design a navigation menu for a blog website using Bootstrap dropdowns. Requirements:
+- Include dropdown menus for categories, tags, and sorting options.
+- Populate the dropdowns with sample categories, tags, and sorting choices.
+- Ensure that the dropdowns display properly and open/close on user interaction.
+
+**Assignment 8: Bootstrap Navs**
+Build a multi-page website with a navigation menu using Bootstrap navs. Requirements:
+- Create a navigation menu that links to at least three different pages.
+- Implement a navigation bar that highlights the active page.
+- Customize the appearance of the navigation menu to match the website's theme.
 
 
 <div align="right">
