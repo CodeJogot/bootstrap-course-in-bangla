@@ -429,7 +429,7 @@ Bootstrap দিয়ে Close Button তৈরি করতে `btn-close` Class 
 | 10       |        dropdown                      |      | যে nav-item কে আমরা Dropdown Menu করতে চাই ঐ nav-item ক্লাস সাথেই এই ক্লাসটা দিতে হবে |
 | 11       |       dropdown-toggle                       |  data-bs-toggle="dropdown"    | nav-item এর ভিতরে যে anchor element আছে ঐ anchor element কে এই Class এবং Attribute দিতে হবে |
 | 11       |       dropdown-menu and dropdown-item                       |      | nav-item এর ভিতরে ul এ dropdown-menu এবং ul এর ভিতর li এবং তার ভিতর anchor tag এ dropdown-item ক্লাস দিতে হবে |
-| 11       |       dropdown-toggle                       |      |   |
+
 
 
 ## Bootstrap Navs and Tabs
