@@ -341,7 +341,8 @@ Bootstrap আমরা কয়েকভাবে ব্যবহার করত�
 - [Bootstrap Close Button](#bootstrap-close-button)
 - [Bootstrap Collapse](#bootstrap-collapse)
 - [Bootstrap List Group](#bootstrap-list-group)
-- [Bootstrap Dropdowns, Navbar, Navs and Tabs](#bootstrap-dropdowns-navbar-navs-and-tabs)
+- [Bootstrap Navbar and Dropdowns](#bootstrap-navbar-and-dropdowns)
+- [Bootstrap Navs and Tabs](#bootstrap-navs-and-tabs)
 
 ## Bootstrap Card
 
@@ -410,7 +411,28 @@ Bootstrap দিয়ে Close Button তৈরি করতে `btn-close` Class 
 
 - Actionable List Group with Hover তৈরি করার জন্য `<li>` element এর পরিবর্তে `<a>` অথবা `<button>` element ব্যবহার করা হয়। Hover Effect এর জন্য প্রতিটা item এ **_list-group-item-action_** এই ক্লাস Add করতে হয়।
 
-## Bootstrap Dropdowns, Navbar, Navs and Tabs
+## Bootstrap Navbar and Dropdowns
+
+- Bootstrap দিয়ে Navbar তৈরি করতে যে যে Classes এবং Attributes লাগে তা নিচে দেয়া হলোঃ
+
+| **No.** | **Class**                    | **Attribute**             | **Reason**                                                                                                                                                                   |
+| ------- | ---------------------------- | ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | navbar                       |                           | Navbar তৈরি করার জন্য।                                                                                                                                                       |
+| 2       | navbar-brand                 |                           | Logo বা Company Name তৈরি করার জন্য                                                                                                                                          |
+| 3       | navbar-nav                   |                           | সবগুলা Nav Menu এর Parent Element কে এই ক্লাস দিতে হয়                                                                                                                        |
+| 4       | nav-item and nav-link        |                           | navbar-nav এর Child Elemenets এ nav-item ক্লাস দিয়ে Nav Menu তৈরি করতে হয়। প্রতিটা nav-item এর ভিতরে আবার প্রতিটা Anchor tag এর জন্য nav-link ক্লাস দিতে হয়                  |
+| 5       | navbar-expand-lg             |                           | Navbar টা Large বা তার চেয়ে বড় Screen এ Expand করবে। যে Element এ আমরা navbar class দিয়েছি ঐ element এ-ই এই ক্লাসটা দিতে হবে                                                 |
+| 6       | navbar-toggler               | data-bs-toggle="collapse" | navbar-brand element এর ঠিক নিচে Button element এই ক্লাস এবং Attribute দিতে হবে। এই ক্লাস এবং Attribute দিতে হবে Navbar Toggler তৈরি করার জন্য                               |
+| 7       | navbar-toggler-icon          |                           | navbar-toggler এর Child Element Span Tag এ এই ক্লাস টা দিতে হয় Toggler Icon এর জন্য                                                                                          |
+| 8       | collapse and navbar-collapse |                           | Parent Breakpoint দ্বারা Navbar Contents কে গ্রুপ এবং Hide করার জন্য এই দুইটা ক্লাস একসাথে ব্যবহার করতে হয়                                                                   |
+| 9       |                              | data-bs-target="#abc"     | navbar-toggler এবং navbar-collapse element দুটোকে লিংক করতে এই Attribute ব্যবহার করতে হবে। যাতে Button এ একবার ক্লিক করলে Menu গুলো দেখা যায় আরেকবার ক্লিক করলে হাইড হয়ে যায় |
+| 10       |        dropdown                      |      | যে nav-item কে আমরা Dropdown Menu করতে চাই ঐ nav-item ক্লাস সাথেই এই ক্লাসটা দিতে হবে |
+| 11       |       dropdown-toggle                       |  data-bs-toggle="dropdown"    | nav-item এর ভিতরে যে anchor element আছে ঐ anchor element কে এই Class এবং Attribute দিতে হবে |
+| 11       |       dropdown-menu and dropdown-item                       |      | nav-item এর ভিতরে ul এ dropdown-menu এবং ul এর ভিতর li এবং তার ভিতর anchor tag এ dropdown-item ক্লাস দিতে হবে |
+| 11       |       dropdown-toggle                       |      |   |
+
+
+## Bootstrap Navs and Tabs
 
 <div align="right">
     <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
