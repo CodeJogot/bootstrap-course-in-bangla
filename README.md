@@ -434,6 +434,21 @@ Bootstrap দিয়ে Close Button তৈরি করতে `btn-close` Class 
 
 ## Bootstrap Navs and Tabs
 
+- Bootstrap এ .nav component টা Flexbox দিয়ে তৈরি। তাই এই element এ flexbox এর ক্লাস যেমন `justify-content-center` এগুলা কাজ করবে। 
+- Bootstrap দিয়ে Navs with Tabs তৈরি করতে যে যে Classes এবং Attributes লাগে তা নিচে দেয়া হলোঃ
+
+| **No.** | **Class**           | **Attribute** | **Reason**                                          |
+| ------- | ------------------- | ------------- | --------------------------------------------------- |
+| 1       | nav                |               | Navbar তৈরি করার জন্য                      |
+| 2       | nav-item           |               | Navbar এর Item তৈরি করার জন্য Nav element এর মধ্যে li element এ এই ক্লাস দিতে হয়                         |
+| 3       | nav-link          |               |    li element এর মধ্যে anchor tag এ এই ক্লাস দিতে হয়           |
+| 4       | flex-column      |               | Nav Items গুলো Vertically Align করার জন্য। এই ক্লাস nav class এর সাথেই দিতে হয়।           |
+| 5       | nav-tabs       |               | Nav Items গুলো Tab আঁকারে Display করার জন্য। এই ক্লাসটাও nav class এর সাথেই দিতে হয়                  |
+| 6       | nav-pills           |               | Nav Items গুলো Pill আঁকারে Display করার জন্য। এই ক্লাসটাও nav class এর সাথেই দিতে হয়              |
+| 7       | .nav-underline         |               | Nav Items গুলোর নিচে Underline দেয়ার জন্য। Nav class যে element এ দেয়া হয়, এটাও same element এই দেয়া হয়                           |
+| 8       | nav-fill         |               | Nav Items গুলো একে অপরের মাঝে এমনভাবে Space Create করে যাতে তাঁদের জন্য বরাদ্দকৃত জায়গা Fill হয়ে যায়                        |
+
+
 <div align="right">
     <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
 </div>
