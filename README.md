@@ -428,7 +428,7 @@ Bootstrap দিয়ে Close Button তৈরি করতে `btn-close` Class 
 | 9       |                              | data-bs-target="#abc"     | navbar-toggler এবং navbar-collapse element দুটোকে লিংক করতে এই Attribute ব্যবহার করতে হবে। যাতে Button এ একবার ক্লিক করলে Menu গুলো দেখা যায় আরেকবার ক্লিক করলে হাইড হয়ে যায় |
 | 10       |        dropdown                      |      | যে nav-item কে আমরা Dropdown Menu করতে চাই ঐ nav-item ক্লাস সাথেই এই ক্লাসটা দিতে হবে |
 | 11       |       dropdown-toggle                       |  data-bs-toggle="dropdown"    | nav-item এর ভিতরে যে anchor element আছে ঐ anchor element কে এই Class এবং Attribute দিতে হবে |
-| 11       |       dropdown-menu and dropdown-item                       |      | nav-item এর ভিতরে ul এ dropdown-menu এবং ul এর ভিতর li এবং তার ভিতর anchor tag এ dropdown-item ক্লাস দিতে হবে |
+| 12       |       dropdown-menu and dropdown-item                       |      | nav-item এর ভিতরে ul এ dropdown-menu এবং ul এর ভিতর li এবং তার ভিতর anchor tag এ dropdown-item ক্লাস দিতে হবে |
 
 
 
