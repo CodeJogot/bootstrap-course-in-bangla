@@ -92,6 +92,7 @@ Bootstrap এর পুরো Course টিকে ৬ টি ভাগে ভা
   - [Way-03: Install via Package Manager](#way-03-install-via-package-manager)
 - [Breakpoints](#breakpoints)
 - [Bootstrap Containers](#bootstrap-containers)
+- [Bootstrap Grid](#bootstrap-grid)
 
 ## What is Bootstrap?
 
@@ -306,11 +307,123 @@ Code:
 </div>
 ```
 
+
+
 <div align="right">
     <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
 # Chapter-02: Columns, Gutters, CSS Grid
+
+- [Columns]()
+
+## Bootstrap Column
+- Bootstrap Column-ও Grid এর মতো Flexbox ব্যবহার করে তৈরি করা হয়েছে।
+- Alignment এবং Ordering করার জন্য আমরা Column ব্যবহার করতে পারি।
+- Non-grid Element এ `.col` class ব্যবহার করে কিভাবে Width নিয়ে কাজ করা যায়, সেটাও আমরা দেখবো।
+
+## Vertical Alignment
+
+- `align-items-*` class ব্যবহার করে Vertically Align করা যায়। এই ক্লাস row তে ব্যবহার করতে হয়। 
+
+![](./chapter-02/images/1.png)
+
+```html
+<div class="container text-center">
+  <div class="row align-items-center">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+```
+
+- আমরা চাইলে `.align-self-*` ব্যবহার করে প্রত্যেক Column ধরে ধরে তার Alignment Change করতে পারি। সেক্ষেত্রে যে Column এ Chaange করতে চাই সেই  Column তে ক্লাস দিতে হবে।
+
+![](./chapter-02/images/2.png)
+
+```html
+<div class="container text-center">
+  <div class="row">
+    <div class="col align-self-start">
+      One of three columns
+    </div>
+    <div class="col align-self-center">
+      One of three columns
+    </div>
+    <div class="col align-self-end">
+      One of three columns
+    </div>
+  </div>
+</div>
+```
+
+## Horizontal Alignment
+- `justify-content-*` class ব্যবহার করে Horizontally Align করা যায়। এই ক্লাস row তে ব্যবহার করতে হয়। 
+
+![](./chapter-02/images/3.png)
+
+```html
+<div class="container text-center">
+  <div class="row justify-content-start">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-end">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-around">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-between">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+  <div class="row justify-content-evenly">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
+    </div>
+  </div>
+</div>
+```
+
+## Column breaks
+- 
 
 # Chapter-03: Reboot, Typography, Images, Tables, Figures
 
