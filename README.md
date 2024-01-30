@@ -54,16 +54,16 @@ After completing the 30-chapters module, jump in the [Projects Section](#).
 - [Prerequisite](#prerequisite)
 - [কোর্সটি যেভাবে সাজানো হয়েছে](#কোর্সটি-যেভাবে-সাজানো-হয়েছেঃ)
 
-### কোর্সটি কাদের জন্য?
+## কোর্সটি কাদের জন্য?
 
 - এই কোর্সটিতে যেকেউ অংশগ্রহণ করতে পারবে। শিখার জন্য মনের ইচ্ছাটাই আসল!
 - Course টি মূলত Beginner-friendly. যারা Web Programming এ নতুন তাদেরকে উদ্দেশ্য করেই Course টি সাজানো।
 
-### Prerequisite
+## Prerequisite
 
 - HTML ও CSS
 
-### কোর্সটি যেভাবে সাজানো হয়েছেঃ
+## কোর্সটি যেভাবে সাজানো হয়েছেঃ
 
 - এই পুরো Article কে একটা বই মনে করতে পারো। কোর্সটি 30 টি Chapter এ ভাগ করা হয়েছে। প্রতিটি Chapter এ Bootstrap এর বিভিন্ন Topics নিয়ে আলোচনা করা হয়েছে।
 - প্রতিটা Chapter এর Module সাজানো হয়েছে ক্রমানুসারে । উদাহরণস্বরূপ, Chapter-05 এর টপিকসগুলো শিখতে হলে অবশ্যই তোমাকে Chapter-04 শেষ করে আসতে হবে। একইভাবে Chapter-04 শিখতে হলে তোমাকে Chapter-03 শেষ করে আসতে হবে ।
@@ -87,33 +87,224 @@ Bootstrap এর পুরো Course টিকে ৬ টি ভাগে ভা
 - [What is Bootstrap?](#what-is-bootstrap)
 - [Why Use Bootstrap?](#why-use-bootstrap)
 - [Installation Method](#installation-method)
-  - [Way-01](#way-01)
-  - [Way-02](#way-02)
-- [Breakpoints]()
+  - [Way-01: CDN](#way-01-cdn)
+  - [Way-02: Downloading Compiled CSS and JS](#way-02-downloading-compiled-css-and-js)
+  - [Way-03: Install via Package Manager](#way-03-install-via-package-manager)
+- [Breakpoints](#breakpoints)
+- [Bootstrap Containers](#bootstrap-containers)
 
-### What is Bootstrap?
+## What is Bootstrap?
 
 Bootstrap হলো একটি front-end framework যার মাধ্যমে খুব সহজে Mobile-first এবং Responsive web design করা যায়।
 
-### Why Use Bootstrap?
+## Why Use Bootstrap?
 
 - Mobile-first approach: অর্থাৎ Design করার ক্ষেত্রে এই Framework মোবাইল এর কথা আগে চিন্তা করে।
 - Responsive Design: Responsive Web Design করার জন্য Bootstrap খুবই কার্যকরী, বলা যেতে পারে Bootstrap এর প্রধান Feature-ই হলো Responsive Design করা।
 - Time Saving: মাথায় কোন Prototype বা Design idea আছে? Bootstrap দিয়ে খুব সহজেই Prototype থেকে Design করে ফেলা যায়, যা Developers দের অনেক সময় বাঁচিয়ে দেয়।
 
-### Installation Method
+## Installation Method
 
 Bootstrap আমরা কয়েকভাবে ব্যবহার করতে পারি। নিচে Bootstrap ব্যবহার করার কয়েকটি উপায় আলোচনা করা হলোঃ
 
-#### Way-01
+### Way-01: CDN
+- নিচের লিংক দুটি কপি করুন এবং আপনার Project এ Paste করুন।
 
-#### Way-02
+```css
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+```
+```css
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+```
 
-### Breakpoints
 
-- Breakpoints হলো responsive design এর building blocks.
+### Way-02: Downloading Compiled CSS and JS
 
-#### Available Breakpoints
+- Bootstrap এর compiled CSS and JS files ডাউনলোড করে আপনার project এ include করুন।
+- <a href="https://getbootstrap.com/docs/5.3/getting-started/download/">এখানে ক্লিক</a> করে Download করুন।
+
+### Way-03: Install via Package Manager
+
+- Using Node Package Manager: `npm install bootstrap@5.3.2`
+- Using RubyGems Package Manager: `gem install bootstrap -v 5.3.2`
+
+_Note: Update version install করতে Bootstrap এর Official Documentation Visit করতে পারেন। https://getbootstrap.com/_
+
+## Breakpoints
+
+- Breakpoints হলো Customizable Widths যেটা আপনার Responsive Layout বিভিন্ন Devices এ কেমন Behave করবে সেটা নির্ধারণ করে। এজন্য Breakpoints কে responsive design এর building blocks বলা হয়।
+
+
+### Available Breakpoints
+
+![Available Breakpoints](./chapter-01/images/breakpoint.png)
+
+[Bootstrap Breakpoints](https://getbootstrap.com/docs/5.3/layout/breakpoints/)
+
+## Bootstrap Containers
+- Container এর কাজ হলো Elements কে Contain করা। কোন Elements কে Contain করা, Padding দেয়া এবং Alignment করার জন্য আমরা Container ব্যবহার করতে পারি।
+- Bootstrap এ 3 ধরনের Container আছেঃ 
+
+  1. `.container`, যা প্রতেক Breakpoints এ `max-width` set করে।
+  2. `.container-{breakpoints}`, এর অর্থ ঐ Breakpoint না পাওয়া পর্যন্ত `width: 100%`
+  3. `.container-fluid`, এর অর্থ `width: 100%` সব Breakpoint এ।
+
+![Bootstrap Containers](./chapter-01/images/container.png)
+
+## Bootstrap Grid
+
+- CSS Flexbox দিয়ে তৈরি। 12 Column-based Layout System.
+- যেকোনো Shape এর Layout তৈরি করা যায়।
+- Bootstrap Grid System তার Contents বা Elements সমূহকে Layout এবং Align করার জন্য Bootstrap Container, Rows and Columns ব্যবহার করে।
+
+### Auto Column Layout
+
+- যদি Column এর Width (যেমনঃ `col-6`) না দেয়া হয়, তাহলে Bootstrap সেগুলোকে সমান আকারে ভাগ করে দেয়।
+
+![Grid 1](./chapter-01/images/grid-01.png)
+
+- আর যদি একটা Column এর Width দেয়া হয় যেমন `col-6` এবং বাকিগুলো না দেয়া হয়, তাহলে বাকিগুলোর জন্য যে জায়গা বাকি থাকে তা সমান ভাগে ভাগ করে নেয়। 
+
+Code:
+```html
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col">
+      2 of 3
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+</div>
+```
+
+![Grid 2](./chapter-01/images/grid-02.png)
+
+Code:
+
+```html
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-6">
+      2 of 3 (wider)
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-5">
+      2 of 3 (wider)
+    </div>
+    <div class="col">
+      3 of 3
+    </div>
+  </div>
+</div>
+```
+
+### Variable width content
+- `col-{breakpoint}-auto` এটা দেয়া হলে ঐ Breakpoint এ Content কে জায়গা দিতে যতটুকু Width দরকার, তততুকু Width নিবে। 
+
+![Grid 3](./chapter-01/images/grid-03.png)
+
+Code:
+
+```html
+<div class="container text-center">
+  <div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+      1 of 3
+    </div>
+    <div class="col-md-auto">
+      Variable width content
+    </div>
+    <div class="col col-lg-2">
+      3 of 3
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      1 of 3
+    </div>
+    <div class="col-md-auto">
+      Variable width content
+    </div>
+    <div class="col col-lg-2">
+      3 of 3
+    </div>
+  </div>
+</div>
+```
+
+### From Stacked to Horizontal
+- ধরলাম আমরা যদি দুইটা কলাম `.col-md-8` এবং `.col-md-4` দেই, তাহলে তারা md breakpoint এর আগে Stacked (একটার উপর আরেকটা) থাকবে। যখনি md breakpoint এ পৌঁছবে তখনই তারা Horizontal (একটার পাশে আরেকটা ) হয়ে যাবে।
+
+![Grid 4](./chapter-01/images/grid-04.png)
+
+Code:
+
+```html
+<div class="container text-center">
+  <div class="row">
+    <div class="col-sm-8">col-sm-8</div>
+    <div class="col-sm-4">col-sm-4</div>
+  </div>
+  <div class="row">
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+    <div class="col-sm">col-sm</div>
+  </div>
+</div>
+```
+
+_Note: এই বিষয়গুলো বুঝার জন্য Screen ছোট বড় করে দেখুন_
+
+- নিচে আরও একটি উদাহরন দেয়া হলোঃ 
+
+![Grid 5](./chapter-01/images/grid-05.png)
+
+Code: 
+```html
+<div class="container text-center">
+  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+  <div class="row">
+    <div class="col-md-8">.col-md-8</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+  </div>
+
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row">
+    <div class="col-6">.col-6</div>
+    <div class="col-6">.col-6</div>
+  </div>
+</div>
+```
 
 <div align="right">
     <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
