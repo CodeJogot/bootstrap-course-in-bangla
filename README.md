@@ -315,7 +315,13 @@ Code:
 
 # Chapter-02: Columns, Gutters, CSS Grid
 
-- [Columns]()
+- [Bootstrap Columns](#bootstrap-column)
+- [Vertical Alignment](#vertical-alignment)
+- [Horizontal Alignment](#horizontal-alignment)
+- [Column Breaks](#column-breaks)
+- [Reordering](#reordering)
+- [Offsetting Columns](#offsetting-columns)
+
 
 ## Bootstrap Column
 - Bootstrap Column-ও Grid এর মতো Flexbox ব্যবহার করে তৈরি করা হয়েছে।
@@ -423,6 +429,70 @@ Code:
 ```
 
 ## Column breaks
+- আমরা যদি Column এর মধ্যে ব্রেক দিতে চাই, তাহলে ছোট্ট একটা ট্রিক খাঁটাতে হবে, আর সেটা হলো `<div class="w-100"></div>` ব্যবহার করতে হবে। 
+- এছাড়া আমরা চাইলে নির্দিষ্ট breakpoint এও Column break করতে পারি। যেমনঃ `<div class="w-100 d-none d-md-block"></div>`
+
+
+
+![](./chapter-02/images/4.png)
+
+```html
+<div class="container text-center">
+  <div class="row">
+    <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+    <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+
+    <!-- Force next columns to break to new line -->
+    <div class="w-100"></div>
+
+    <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+    <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+  </div>
+</div>
+```
+
+- আবার চাইলে একটা Specific Breakpoint এও break করা যায়। যেমনঃ 
+
+![](./chapter-02/images/5.png)
+
+```html
+<div class="container text-center">
+  <div class="row">
+    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+
+    <!-- Force next columns to break to new line at md breakpoint and up -->
+    <div class="w-100 d-none d-md-block"></div>
+
+    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+    <div class="col-6 col-sm-4">.col-6 .col-sm-4</div>
+  </div>
+</div>
+```
+
+## Reordering
+
+- `.order-` class ব্যবহার করে আমরা Column এর Order বদলাতে পারি। `order-1` থেকে `order-5` পর্যন্ত আছে। এছাড়া `order-first` এবং `order-last` ক্লাসও আছে।
+
+![](./chapter-02/images/6.png)
+
+```html
+<div class="container text-center">
+  <div class="row">
+    <div class="col">
+      First in DOM, no order applied
+    </div>
+    <div class="col order-5">
+      Second in DOM, with a larger order
+    </div>
+    <div class="col order-1">
+      Third in DOM, with an order of 1
+    </div>
+  </div>
+</div>
+```
+
+## Offsetting columns
 - 
 
 # Chapter-03: Reboot, Typography, Images, Tables, Figures
