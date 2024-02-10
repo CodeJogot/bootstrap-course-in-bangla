@@ -495,7 +495,7 @@ Code:
 ## Offsetting columns
 - আপনি দুটি উপায়ে গ্রিড কলাম অফসেট বা Left Margin করতে পারেন: Bootstrap এর responsive `.offset` গ্রিড ক্লাস এবং মার্জিন ইউটিলিটি।
 
-## CSS Gutters
+## Bootstrap Gutters
 - Bootstrap Gutter এর মাধ্যমে আমরা Columns এ Horizontally এবং Vertically Padding দিতে পারি। `gx-*` দিয়ে Horizontally এবং `gy-*` দিয়ে Vertically Padding দিতে পারি।
 
 # Chapter-03: Reboot, Typography, Images, Tables, Figures
