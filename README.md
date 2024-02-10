@@ -505,16 +505,16 @@ Code:
   - [Heading এ যা Reboot করা হলো](#heading-এ-যা-reboot-করা-হলো)
   - [Paragraph এ যা Reboot করা হলো](#paragraph-এ-যা-reboot-করা-হলো)
   - [Link এ যা Reboot করা হলো](#link-এ-যা-reboot-করা-হলো)
-- [Typography]
+- [Bootstrap Typography](#bootstrap-typography)
 
-### What is Reboot Concept in Bootstrap?
+## What is Reboot Concept in Bootstrap?
 
 - Bootstrap অনেক HTML Elements এর By default আচরণকে কিছুটা নিজেদের মত করে পরিবর্তন করে দিয়েছে। এই Concept টাকেই Reboot বলা হচ্ছে।
 - শুধু HTML ফাইলে Element টা ব্যবহার করলেই আমরা সেই পরিবর্তনগুলো দেখতে পাবো, এরজন্য অতিরিক্ত কোন Class ব্যবহার করতে হবে না। তবে আমরা চাইলে Bootstrap এর Class ব্যবহার করে নিজেদের মত Style করতেই পারি!
 
 যেমন, সব Heading Elements (`<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`) থেকে `margin-top` removed করে দেয়া হয়েছে।
 
-#### By Default কি কি Reboot করা হলো?
+### By Default কি কি Reboot করা হলো?
 
 - `box-sizing: border-box` এইটা প্রত্যেকটা element এবং তাদের `*::before` এবং `*::after` এ সেট করে দেয়া হয়েছে।
 - `<html>` element এ কোন base `font-size` দেয়া হয়নি। base font size সাধারণত 16px থাকে (browser default).
@@ -523,58 +523,60 @@ Code:
 - সবচেয়ে মজার যে বিষয় তা হলো Bootstrap ভিন্ন ভিন্ন Devices এবং OS এ ভিন্ন ভিন্ন `font-family` set করে। যেমন, macOS এবং iOS এর ক্ষেত্রে `-apple-system`, windows এর ক্ষেত্রে `Segoe UI`, Android এর ক্ষেত্রে `Roboto`, Linux এর ক্ষেত্রে `Noto Sans` ব্যবহার করা হয়, এর সাথে সাথে কিছু fallback font-ও ব্যবহার করা হয়।
   তারমানে বুঝা গেলো একজন Developer Code শুরু করার আগেই Bootstrap smartly তারহয়ে অনেক কিছু Reset করে দেয়!
 
-#### Heading এ যা Reboot করা হলো
+### Heading এ যা Reboot করা হলো
 
 - `margin-top` removed.
 - `margin-bottom: 0.5rem` সেট করা হয়েছে।
 
-#### Paragraph এ যা Reboot করা হলো
+### Paragraph এ যা Reboot করা হলো
 
 - `margin-top` removed.
 - `margin-bottom: 1rem` সেট করা হয়েছে।
 
-#### Link এ যা Reboot করা হলো
+### Link এ যা Reboot করা হলো
 
 - link এ Underline সহ একটা color থাকে।
 - link `visited` হলে এর color পরিবর্তন হবে না।
 
-#### Horizontal Rules এ যা Reboot করা হলো
+### Horizontal Rules এ যা Reboot করা হলো
 
 - `opacity: 0.25` সেট করা থাকে।
 - `border-color` এর কালার `color` এর মাধ্যমে Inherit করে। অর্থাৎ `<hr>` এর Parent এর text color যদি green হয়, তাহলে `<hr>` এর border color-ও green হবে।
 
-#### Lists এ যা Reboot করা হলো
+### Lists এ যা Reboot করা হলো
 
 - `margin-top` removed.
 - `margin-bottom: 1rem` সেট করা হয়েছে।
 - Nested lists এর কোন `margin-bottom` নেই।
 
-#### `<code>` এবং `<pre>` তে যা Reboot করা হলো
+### `<code>` এবং `<pre>` তে যা Reboot করা হলো
 
-#### Variables এ যা Reboot করা হলো
+### Variables এ যা Reboot করা হলো
 
-#### User Input এ যা Reboot করা হলো
+### User Input এ যা Reboot করা হলো
 
-#### Sample Output এ যা Reboot করা হলো
+### Sample Output এ যা Reboot করা হলো
 
-#### Tables এ যা Reboot করা হলো
+### Tables এ যা Reboot করা হলো
 
-#### Forms এ যা Reboot করা হলো
+### Forms এ যা Reboot করা হলো
 
 - `<fieldset>` থেকে border, margin এবং padding removed করা হয়েছে।
 - `<label>` কে `display: inline-block` করা হয়েছে যাতে margin ব্যবহার করা যায়।
 - `<input>`, `<select>`, `<textarea>` এবং `<button>` একটা Basic Style দেয়া হয়েছে।
 - Button Element এ `cursor: pointer` সেট করে দেয়া হয়েছে।
 
-#### Address Element এ যা Reboot করা হলো
+### Address Element এ যা Reboot করা হলো
 
-#### Blockquote এ যা Reboot করা হলো
+### Blockquote এ যা Reboot করা হলো
 
-#### `<abbr>` Element এ যা Reboot করা হলো
+### `<abbr>` Element এ যা Reboot করা হলো
 
-#### Summary Element এ যা Reboot করা হলো
+### Summary Element এ যা Reboot করা হলো
 
-#### Hidden Attribute এ যা Reboot করা হলো
+### Hidden Attribute এ যা Reboot করা হলো
+
+## Bootstrap Typography
 
 # Chapter-04: Bootstrap Form
 
