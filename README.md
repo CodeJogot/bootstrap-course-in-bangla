@@ -472,7 +472,7 @@ Code:
 
 ## Reordering
 
-- `.order-` class ব্যবহার করে আমরা Column এর Order বদলাতে পারি। `order-1` থেকে `order-5` পর্যন্ত আছে। এছাড়া `order-first` এবং `order-last` ক্লাসও আছে।
+- `.order-` class ব্যবহার করে আমরা Column এর  Visual Order বদলাতে পারি। `order-1` থেকে `order-5` পর্যন্ত আছে। এছাড়া `order-first` এবং `order-last` ক্লাসও আছে। এগুলো responsive class অর্থাৎ এই ক্লাসগুলোর সাথে আমরা breakpointsও দিতে পারি, যেমনঃ `order-md-2`
 
 ![](./chapter-02/images/6.png)
 
@@ -493,7 +493,7 @@ Code:
 ```
 
 ## Offsetting columns
-- 
+- আপনি দুটি উপায়ে গ্রিড কলাম অফসেট বা Left Margin করতে পারেন: Bootstrap এর responsive `.offset` গ্রিড ক্লাস এবং মার্জিন ইউটিলিটি।
 
 # Chapter-03: Reboot, Typography, Images, Tables, Figures
 
