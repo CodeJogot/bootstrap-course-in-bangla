@@ -1132,6 +1132,51 @@ Build a multi-page website with a navigation menu using Bootstrap navs. Requirem
     <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
 </div>
 
+# Chapter-07: Offcanvas, Pagination, Placeholders, Popovers and Progress
+
+## Offcanvas
+- Bootstrap এর Offcanvas, by default hidden থাকে। কোন একটা Button ক্লিক করলে এটা দেখা যাবে, আমরা চাইলে সেটা করতে পারি। Button টি অবশ্যই Offcanvas এর বাইরে তৈরি করতে হবে। কারন আমরা একটু আগেই বলেছি, Offcanvas hidden থাকে, তাই এর ভিতরে যা কিছুই দিবো না কেন, কোন কিছুই দেখা যাবে না। 
+- Offcanvas তৈরি করতে প্রয়োজনীয় ক্লাস
+
+| **No.** | **Class**           | **Attribute** | **Reason**                                          |
+| ------- | ------------------- | ------------- | --------------------------------------------------- |
+| 1       | offcanvas                |               | Offcanvas তৈরি করার জন্য                      |
+| 2       | offcanvas-header           |               | Offcanvas এর Header তৈরি করার জন্য                        |
+| 3       | offcanvas-body          |               |    Offcanvas এর Body তৈরি করার জন্য           |
+| 4       | offcanvas-title      |               | Offcanvas এর Header এর মধ্যে Title তৈরি করার জন্য           |
+| 5       |        |     data-bs-toggle="offcanvas"          | কি Type এর Toggle হবে সেটা বলে দেয়ার জন্য, যে Button এ ক্লিক করলে Offcanvas টা Reveal হবে সেই Button এর Attribute হিসেবে এইটা দিতে হবে                  |
+| 6       |            |   data-bs-target="#id-name-given-on-offcanvas-element"            | এই Attribute-ও Button এ দিতে হবে, যে Button এ ক্লিক করলে আমাদের Offcanvas টি Reveal হবে। Button এবং Offcanvas element এর মধ্যে Connection করে দেয়ার জন্য ঐ Attribute দিতে হবে। এবং Attribute এর Value এবং Offcanvas element এর id এর নাম একই হতে হবে। একই না হলে, Connection হবে না              |
+| 7       | offcanvas-start         |               | offcanvas যে element এ দেয়া হয়েছিল ঐ একই element এ এই ক্লাস দেয়া হয়। এই ক্লাস দিয়ে বলে দেয়া হয় যে, আমাদের offcanvas টা কোনদিক দিয়ে বের হবে                           |
+| 8       |          |     data-bs-dismiss="offcanvas"          | এই Attribute close button এ দিতে হবে। Close Button এ ক্লিক করলে কে Dismiss হবে সেটা বলে দেয়ার জন্য আমরা এই Attribute use করি।                        |
+
+## Bootstrap Pagination
+- প্রয়োজনীয় কিছু ক্লাস
+
+| **No.** | **Class**           | **Attribute** | **Reason**                                          |
+| ------- | ------------------- | ------------- | --------------------------------------------------- |
+| 1       | pagination                |               | Pagination তৈরি করার জন্য Div বা Ul element এ এই ক্লাস দিতে হয়                     |
+| 2       | page-item           |               | Ul এর মধ্যে li element এ এই ক্লাস দিতে হয়                       |
+| 3       | page-link          |               |    Li এর মধ্যে a element এ এই ক্লাস দিতে হয়          |
+| 4       | disabled      |               | page-item যে element এ দেয়া হয়েছে সেই element এ এই ক্লাস দিতে হয়, disabled করার জন্য           |
+
+
+## Bootstrap Placeholders
+
+- Website এর Content Loading এর পূর্বমুহূর্তে Placeholder display করার প্রয়োজন হয়। Placeholder ছাড়া Website অসম্পূর্ণ মনে হয়। 
+- Server থেকে Data না আসা পর্যন্ত আমরা এরকম Placeholder দিয়ে রাখতে পারি, সেক্ষেত্রে দেখতে যেমন সুন্দর হয়, তেমনি User-friendly হয়।
+- প্রয়োজনীয় কিছু ক্লাস
+
+| **No.** | **Class**           | **Attribute** | **Reason**                                          |
+| ------- | ------------------- | ------------- | --------------------------------------------------- |
+| 1       | placeholder-glow                |               | Loading type placeholder তৈরি করার জন্য এই ক্লাস দিতে হয়                     |
+| 2       | placeholder           |               | placeholder-glow এর ভিতরের বা child element এই ক্লাস দিতে হয়, সাথে width-ও দিতে হয়                       |
+| 3       | page-link          |               |    Li এর মধ্যে a element এ এই ক্লাস দিতে হয়          |
+| 4       | disabled      |               | page-item যে element এ দেয়া হয়েছে সেই element এ এই ক্লাস দিতে হয়, disabled করার জন্য           |
+
+<div align="right">
+    <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
 # Project-03: Simple Website Layout with Flexbox
 
 ### Difficulty: Easy (2/10)
