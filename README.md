@@ -498,6 +498,10 @@ Code:
 ## Bootstrap Gutters
 - Bootstrap Gutter এর মাধ্যমে আমরা Columns এ Horizontally এবং Vertically Padding দিতে পারি। `gx-*` দিয়ে Horizontally এবং `gy-*` দিয়ে Vertically Padding দিতে পারি।
 
+<div align="right">
+    <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
+</div>
+
 # Chapter-03: Reboot, Typography, Images, Tables, Figures
 
 - [What is Reboot Concept in Bootstrap?](#what-is-reboot-concept-in-bootstrap)
@@ -577,6 +581,244 @@ Code:
 ### Hidden Attribute এ যা Reboot করা হলো
 
 ## Bootstrap Typography
+- Bootstrap Typography সেকশনে আমরা Font, Font Size, Line Height, Heading, Display ইত্যাদি বিষয় নিয়ে আলোচনা করবো। 
+
+### Heading
+- HTML এ h1 থেকে h6 পর্যন্ত সবগুলো heading elements available. এছাড়া কোন element যদি heading element নাও হয়, তবুও আমরা heading element এর size দিতে পারি `.h1`, `.h2`, `.h3`, `.h4`, `.h5`, `.h6` এই ক্লাসগুলো ব্যবহার করে। যেমন, আমারা যদি একটি p element এ h1 এর ক্লাস ব্যবহার করি তাহলে p element এর font size, h1 element এর মতো size হয়ে যাবে। যেমনঃ 
+```html
+<p class="h1">h1. Bootstrap heading</p>
+<p class="h2">h2. Bootstrap heading</p>
+<p class="h3">h3. Bootstrap heading</p>
+<p class="h4">h4. Bootstrap heading</p>
+<p class="h5">h5. Bootstrap heading</p>
+<p class="h6">h6. Bootstrap heading</p>
+```
+
+### Display Heading
+
+- Traditional Heading এর চেয়েও যদি বড় Font Size দরকার হয় সেক্ষেত্রে আমরা Display Heading ব্যবহার করতে পারি। যেমনঃ
+```html
+<h1 class="display-1">Display 1</h1>
+<h1 class="display-2">Display 2</h1>
+<h1 class="display-3">Display 3</h1>
+<h1 class="display-4">Display 4</h1>
+<h1 class="display-5">Display 5</h1>
+<h1 class="display-6">Display 6</h1>
+```
+Output:
+![display heading](./chapter-03/images/1.png)
+
+### Naming a Source
+- কোন Quote এর সাথে যদি আমরা Source-ও লিখতে চাই তাহলে প্রথমে `<figure>` element এর মধ্যে `<blockquote>` ও `<figcaption>` দিতে হবে। নিচে উদাহরন দেয়া হলোঃ 
+
+```html
+<figure class="text-center">
+  <blockquote class="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
+```
+Output:
+![blockquote](./chapter-03/images/2.png)
+
+
+## Bootstrap Images
+- কোন ইমেজে `.img-fluid` এই ক্লাস দিলে ঐ ইমেজটিতে `max-width: 100%; and height: auto;` Apply হয়ে যায়। 
+- `.img-thumbnail` class ব্যবহার করলে ইমেজের border 1px rounded হয়ে যায়। 
+
+### Aligning The Images
+
+Images কে 3 ভাবে Align করা যায়ঃ
+- Using `.float-start` and `.float-end`
+```html
+<img src="..." class="rounded float-start" alt="...">
+<img src="..." class="rounded float-end" alt="...">
+```
+- Using `.text-start`, `.text-end` and `.text-center`
+```html
+<div class="text-center">
+  <img src="..." class="rounded" alt="...">
+</div>
+```
+- Image একটা Inline-element, তাই Image কে প্রথমে block element বানিয়ে অতঃপর `mx-auto` করলে Center এ চলে যাবে। 
+```html
+<img src="..." class="rounded mx-auto d-block" alt="...">
+```
+
+## Bootstrap Tables
+- `.table` class ব্যবহার করলেই Bootstrap নিজের মতো সুন্দর একটা Layout দিবে। 
+
+```html
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+```
+Output:
+![table](./chapter-03/images/3.png)
+
+- Bootstrap দিয়ে আমরা Row, Column এবং পুরো Table কে কালার দিতে পারি। 
+```html
+<!-- On tables -->
+<table class="table-primary">...</table>
+<table class="table-secondary">...</table>
+<table class="table-success">...</table>
+<table class="table-danger">...</table>
+<table class="table-warning">...</table>
+<table class="table-info">...</table>
+<table class="table-light">...</table>
+<table class="table-dark">...</table>
+
+<!-- On rows -->
+<tr class="table-primary">...</tr>
+<tr class="table-secondary">...</tr>
+<tr class="table-success">...</tr>
+<tr class="table-danger">...</tr>
+<tr class="table-warning">...</tr>
+<tr class="table-info">...</tr>
+<tr class="table-light">...</tr>
+<tr class="table-dark">...</tr>
+
+<!-- On cells (`td` or `th`) -->
+<tr>
+  <td class="table-primary">...</td>
+  <td class="table-secondary">...</td>
+  <td class="table-success">...</td>
+  <td class="table-danger">...</td>
+  <td class="table-warning">...</td>
+  <td class="table-info">...</td>
+  <td class="table-light">...</td>
+  <td class="table-dark">...</td>
+</tr>
+```
+
+Output:
+![table 2](./chapter-03/images/4.png)
+
+- বিভিন্ন ক্লাস ও তাদের কাজ 
+
+| No. | Class              | Attribute       | Reason                                                                                                 |
+| --- | ------------------ | --------------- | ------------------------------------------------------------------------------------------------------ |
+| 1   |  table            |                 | `<table>` element এ এই ক্লাস দিলে Bootstrap by default layout কে reboot করে নিজের মতো সুন্দর একটা Layout দেয়                                                                                  |
+| 2   | table-primary      |                 | Color দেয়ার জন্য এই ক্লাস আমরা `<tr>`, `<td>` এমনকি `<table>` element এও দিতে পারি                                                                             |
+| 3   |      table-striped              |             | `<table>` element এ এই ক্লাস দিলে Stripped design পাওয়া যায়।                                                        |
+| 4   | table-striped-columns          |                 | আমরা চাইলে শুধু কলাম কেও Stripped দিয়ে পারি। এখেত্রেও এই ক্লাস `<table>` element এই দিতে হবে                                                      |
+| 5   |      table-hover              |  | এই ক্লাস `<table>` element এ দিতে হয়। এর ফলে প্রত্যেকটি Row এ Hover effect যুক্ত হয়                                                                  |
+| 6   | table-active |                 | যে Row কে Active রাখতে চাই, সেই Row তে এই ক্লাস দিতে হয়। একটি নির্দিষ্ট Cell এও এই ক্লাস ব্যবহার করা যায়                                                                   |
+| 7   | table-bordered      |                 | আমরা যদি পুরো Table এ Border অ্যাড করতে চাই (সবগুলো cell সহ) তাহলে এই ক্লাস `<table>` element এ অ্যাড করতে হয়                               |
+| 8   | table-borderless         |                 | পুরো Table এ যদি কোন Border না রাখতে চাই তাহলে `<table>` element এ এই ক্লাস ব্যবহার করা হয়  |
+| 9   | table-sm |                 | এই ক্লাস `<table>` element এ দিতে হয়। এর ফলে পুরো Table আরও Compact হয়ে Render হয়। কারন এই ক্লাস প্রত্যেক Cell এর Padding remove করে ফেলে |
+| 10   | table-group-divider |                 | এই ক্লাস `<tbody>` element এ দিতে হয়। ফলে একটা বড় Border উপরের `<thead>` কে পৃথক করে |
+
+Table Group Divider Example:
+![table group](./chapter-03/images/5.png)
+
+### Table Caption
+
+- `<caption>` element add করে আমরা Table এর Caption দিতে পারি। নিচে উদাহরন দেয়া হলোঃ 
+```html
+<table class="table table-sm">
+  <caption>List of users</caption>
+  <thead>
+    ...
+  </thead>
+  <tbody>
+    ...
+  </tbody>
+</table>
+```
+Output:
+![table caption](./chapter-03/images/6.png)
+
+- Caption যদি উপরে দিতে চান,  তাহলে আমরা `<table>` element এ `caption-top` ক্লাস ব্যবহার করতে হবে। যেমনঃ 
+```html
+<table class="table caption-top">
+  <caption>List of users</caption>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+Output:
+[![table caption top](./chapter-03/images/7.png)]
+
+### Responsive tables
+- `.table-responsive` class ব্যবহার করে আমরা Responsive Table তৈরি করতে পারি। ফলে Table এর Space না থাকলে Scrollbar অ্যাড হয়ে যাবে। যেমনঃ
+```html
+<div class="table-responsive">
+  <table class="table">
+    ...
+  </table>
+</div>
+```
+## Bootstrap Figurs
+- `.figure` class `<figure>` element এ, `.figure-img` `<img>` element এ এবং `.figure-caption` element `<figcaption>` elment এ দিয়ে আমরা কোন Image এর সাথে Caption অ্যাড করতে পারি। ফলে Bootstrap নিজের মতো কিছু Style দিয়ে দেয়। যেমনঃ 
+```html
+<figure class="figure">
+  <img src="..." class="figure-img img-fluid rounded" alt="...">
+  <figcaption class="figure-caption">A caption for the above image.</figcaption>
+</figure>
+```
+Output:
+![figures 1](./chapter-03/images/8.png)
+
+<div align="right">
+    <b><a href="#learn-bootstrap-in-30-chapters">↥ Go to Top</a></b>
+</div>
 
 # Chapter-04: Bootstrap Form
 
